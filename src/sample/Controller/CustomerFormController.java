@@ -18,8 +18,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class CustomerFormController {
-//    public Button btnBackHome;
-//    public Button BtnNewCustomer;
+    public Button btnBackHome;
+    public Button BtnNewCustomer;
     //---------------------------
     public TextField txtCid;
     public TextField txtCname;
@@ -195,7 +195,7 @@ public class CustomerFormController {
         stage.setScene(new Scene(
                 FXMLLoader.load(getClass()
                         .getResource
-                                ("../views/DashBoardForm.fxml"))));
+                                ("../Views/DashBoardForm.fxml"))));
     }
 
 

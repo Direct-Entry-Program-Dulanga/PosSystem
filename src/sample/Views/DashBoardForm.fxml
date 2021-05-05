@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contextDashBoard" prefHeight="400.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.DashBoardFromController">
+   <children>
+      <Label layoutX="290.0" layoutY="26.0" text="POS System">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="115.0" onMouseClicked="#openCustomerForm" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Customer-image.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
