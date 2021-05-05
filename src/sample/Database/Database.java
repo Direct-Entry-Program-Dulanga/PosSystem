@@ -3,6 +3,7 @@ package sample.Database;
 
 import sample.model.Customer;
 import sample.model.Item;
+import sample.model.Order;
 
 import java.util.ArrayList;
 
@@ -11,6 +12,8 @@ public class Database {
     //-------------------------------
     public static ArrayList<Item> itemlist1 = new ArrayList();
     //--------------------------------
+    public static ArrayList<Order> orderlist = new ArrayList();
+
     static {
         // For Customer ------------------
         customerList1.add(new Customer("C-001", "Nimal", "Colombo", 25000.00));

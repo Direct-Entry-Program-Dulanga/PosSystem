@@ -1,4 +1,4 @@
-package lk.system.pos.model;
+package sample.model;
 
 import java.util.ArrayList;
 

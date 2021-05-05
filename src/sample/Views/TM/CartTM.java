@@ -1,4 +1,4 @@
-package lk.system.pos.Views.TM;
+package sample.Views.TM;
 
 public class CartTM {
     private String itemCode;

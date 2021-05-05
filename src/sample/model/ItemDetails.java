@@ -1,4 +1,4 @@
-package lk.system.pos.model;
+package sample.model;
 
 public class ItemDetails {
     private String code;

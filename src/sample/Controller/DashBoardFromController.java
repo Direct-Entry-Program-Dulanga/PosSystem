@@ -19,6 +19,10 @@ public class DashBoardFromController {
         setUi("ItemForm");
     }
 
+    public void openCartForm(MouseEvent mouseEvent) throws IOException {
+        setUi("AddCartForm");
+    }
+
 
     private void setUi(String location) throws IOException {
         Stage stage = (Stage) contextDashBoard.

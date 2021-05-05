@@ -23,5 +23,10 @@
             <Image url="@../Assets/Items-image.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="374.0" layoutY="115.0" onMouseClicked="#openCartForm" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/OrderDetails-image.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

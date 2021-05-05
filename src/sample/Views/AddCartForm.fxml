@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane fx:id="contextaddcart" prefHeight="656.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.system.pos.Controller.AddCartFormController">
+<AnchorPane fx:id="contextaddcart" prefHeight="656.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.AddCartFormController">
    <children>
       <Label layoutX="354.0" layoutY="24.0" text="Add Cart Form">
          <font>

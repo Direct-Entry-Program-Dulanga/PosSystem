@@ -1,4 +1,4 @@
-package lk.system.pos.Controller;
+package sample.Controller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,12 +9,12 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import lk.system.pos.DataBase.Database;
-import lk.system.pos.Views.TM.CartTM;
-import lk.system.pos.model.Customer;
-import lk.system.pos.model.Item;
-import lk.system.pos.model.ItemDetails;
-import lk.system.pos.model.Order;
+import sample.Database.Database;
+import sample.Views.TM.CartTM;
+import sample.model.Customer;
+import sample.model.Item;
+import sample.model.ItemDetails;
+import sample.model.Order;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -239,7 +239,7 @@ public class AddCartFormController {
         stage.setScene(new Scene(
                 FXMLLoader.load(getClass()
                         .getResource
-                                ("../views/DashBoardForm.fxml"))));
+                                ("../Views/DashBoardForm.fxml"))));
     }
 
     public void palceOrder(ActionEvent actionEvent) {
