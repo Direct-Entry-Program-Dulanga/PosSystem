@@ -15,6 +15,9 @@ public class DashBoardFromController {
         setUi("CustomerForm");
     }
 
+    public void OpenItemForm(MouseEvent mouseEvent) throws IOException {
+        setUi("ItemForm");
+    }
 
 
     private void setUi(String location) throws IOException {
