@@ -28,5 +28,10 @@
             <Image url="@../Assets/OrderDetails-image.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="174.0" fitWidth="150.0" layoutX="551.0" layoutY="138.0" onMouseClicked="#openOrderDetailsForm" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Order-image.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
